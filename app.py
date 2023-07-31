@@ -4,9 +4,6 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestRegressor
 from category_encoders import BinaryEncoder
-import subprocess
-
-subprocess.call("pip install -r requirements.txt", shell=True)
 
 st.sidebar.header('User Input Features')
 
